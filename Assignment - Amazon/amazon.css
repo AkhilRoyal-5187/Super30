@@ -11,7 +11,7 @@
     background-color: black;
     border: none;
     color: whitesmoke;
-    margin-left: 20px;
+    margin-left: 17px;
     height: 45px;
 }
 
@@ -34,7 +34,7 @@
 
 .items{
     position: absolute;
-    top: 330px;
+    top: 380px;
     left: 50px;
     height: 400px;
     background-color:white;    
@@ -63,7 +63,7 @@
 
 .items-2{
     position: absolute;
-    top: 330px;
+    top: 380px;
     left: 450px;
     height: 400px;
     background-color:white;    
@@ -74,7 +74,7 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin-left: 30px;
+    margin-left: 20px;
     margin-right: 30px;
     background-color: white;
     height: 300PX;
@@ -85,7 +85,7 @@
 
 .items-3{
     position: absolute;
-    top: 330px;
+    top: 380px;
     left: 860px;
     height: 400px;
     background-color:white;    
@@ -108,11 +108,12 @@
 .main-section-2{
     position: relative;
     display: flex;
+    background-color: aquamarine;
 }
 
 .x-items{
     position: absolute;
-    top: 930px;
+    top: 280px;
     left: 50px;
     height: 400px;
     background-color:white;    
@@ -121,7 +122,7 @@
 
 .x-items-2{
     position: absolute;
-    top: 930px;
+    top: 280px;
     left: 450px;
     height: 400px;
     background-color:white;    
@@ -130,7 +131,7 @@
 
 .x-items-3{
     position: absolute;
-    top: 930px;
+    top: 280px;
     left: 860px;
     height: 400px;
     background-color:white;    
