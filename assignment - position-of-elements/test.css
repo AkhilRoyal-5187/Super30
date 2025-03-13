@@ -1,0 +1,99 @@
+*{
+
+    padding:0;
+    margin: 0;
+}
+.flex-container{
+    height: 100%;
+    width: 100%;
+    background-color: #ffefc8;    
+    position: relative;
+    
+}
+
+.flex-container div{
+    position: static;
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    font-family: sans-serif;
+    
+    
+}
+
+.red-div{
+    text-align: center;
+    padding: auto 0;
+    margin-bottom: 5px;
+    
+    margin-left: 50px;
+    
+}
+
+
+.red-div p {
+    margin-top: 100px;
+}
+
+.yellow-div{
+    margin-left: 50px;
+    text-align: center;
+    padding: auto 0;
+}
+
+
+@keyframes container-1 {
+    0%{top:0; left:0}
+    50%{top:200}
+    100%{top:200; left:200}
+}
+
+.flex-container-1{
+    height: 100%;
+    width: 100%;
+    background-color: #ffefc8;    
+    position: relative;
+    display: flex;
+}
+
+.flex-container-1 div{
+    position: static;
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    font-family: sans-serif;
+    animation-name: container-1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    animation-duration: 3s;
+    
+}
+
+.red-div-1{
+    text-align: center;
+    margin-bottom: 5px;
+    position: relative;
+    margin-left: 50px;
+    width: 30px;
+    height: 300px;
+    
+}
+
+.red-div-2{
+    text-align: center;
+    margin-bottom: 5px;
+    position: relative;
+    margin-left: 50px;
+    width: 300px;
+    height: 300px;
+    
+}
+
+.flex-container-2{
+    height: 100%;
+    width: 100%;
+    background-color: #ffefc8;    
+    position: relative;
+    
+}

@@ -1,0 +1,41 @@
+<html>
+
+    <head>
+        <link rel="stylesheet" href="test.css">
+    </head>
+
+    <body style="width: 100%;">
+        <div class="flex-container">
+            <div style="background-color: #e52020; flex-grow: 1; " class="red-div">
+                <p>This is a static example  <br><span style="text-decoration: line-through;">NO top, right, bottom, left </span></p>
+   
+            </div>
+
+        </div>
+        <div class="flex-container-1">
+            <div style="background-color: #e52020; " class="red-div-1">
+                <p>This is a Relative example<br><span > <ion-icon style="margin-top: 30px;" name="shield-checkmark-outline"></ion-icon> top, right, bottom, left </span></p>
+                <div style="background-color: #2242d5; position: sticky;bottom: 0px;right: 0px;" >
+                    <p>This is a STICKY example<br><span > <ion-icon style="margin-top: 30px;" name="shield-checkmark-outline"></ion-icon> top, right, bottom, left </span></p>
+    
+                </div>
+            </div>
+
+        </div>
+        <div class="flex-container-2">
+            <div style="background-color: #e52020; " class="red-div-2">
+                <p>This is a Absolute example<br><span > <ion-icon style="margin-top: 30px;" name="shield-checkmark-outline"></ion-icon> top, right, bottom, left </span></p>
+            </div>
+            <div style="background-color: black; position: absolute; top: 80px; left: 50px;">
+                <p style="color: white;">This is a Absolute example<br><span > <ion-icon style="margin-top: 30px;" name="shield-checkmark-outline"></ion-icon> top, right, bottom, left </span></p>
+            </div>
+        </div>
+
+        <div style="background-color:green; position: fixed; bottom: 0;right: 0; " class="">
+            <p>This is a fixed example<br><span > <ion-icon style="margin-top: 30px;" name="shield-checkmark-outline"></ion-icon> top, right, bottom, left </span></p>
+        </div>
+        
+    </body>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</html>
