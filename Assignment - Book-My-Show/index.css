@@ -1,0 +1,80 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.header-bms{
+    height: 40px;
+    width: 150px;
+}
+
+.nav span{
+    
+    margin-left: 30px;
+}
+.nav{
+    background: rgb(245, 245, 245);
+    color: rgb(245, 245, 245);
+    height: 40px;
+    
+    width: fit-screen;
+}
+
+.nav p {
+    display: inline-flex;
+    align-items: center;
+}
+
+.nav p button{
+    background: rgb(245, 245, 245);
+    border: none;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 95%;
+    
+}
+
+
+section{
+    width: 100%;
+    height: 75vh;
+    background-color:black;
+    position: relative;
+}
+
+section img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    mask-image: linear-gradient(to left, black, transparent);
+}
+
+section iframe{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    height: 400px;
+    width: 250px;
+    border-radius: 5%;
+}
+
+.Movie-details{
+    position: absolute;
+    top: 100px;
+    left: 343px;
+    color: white;
+    font-family: sans-serif;
+    font-size: x-large;
+}
+
+.Movie-details-2{
+    position: absolute;
+    top: 160px;
+    left: 343px;
+    border-radius: 15px;    
+    
+}
