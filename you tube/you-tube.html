@@ -2,39 +2,60 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>You-tube</title>
+    
     <link rel="stylesheet" href="you-tube.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
+    crossorigin="anonymous">
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
 </head>
 
 <body>
     <section>
+        
         <!-- nav-left part -->
+        
         <div class="d-flex align-items-start menu-nav">
-            <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical" style="margin-top: 20px; margin-left: 15px; height: 100vh; overflow-y: auto;">
-                <!-- buttons part -->
+            
+          <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical" style="margin-top: 20px; margin-left: 15px; height: 100vh; overflow-y: auto;">
+                
+            <!-- buttons part -->
                 <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false" style="margin-bottom: 25px;">
                     <i class="bi bi-list"></i><br>
                 </button>
                 
-                <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true" style="margin-bottom: 25px;">
-                    <i class="bi bi-house-door"></i><br>Home
-                </button>
+                <a href="../you tube/you-tube.html">
+                    <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true" style="margin-bottom: 25px;">
+                        <i class="bi bi-house-door"></i><br>Home
+                    </button>
+                </a>
                 
-                <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false" style="margin-bottom: 25px;">
-                    <i class="bi bi-file-play"></i><br>Shorts
-                </button>
+                <a href="../you tube/shots.html">
+                    <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false" style="margin-bottom: 25px;">
+                        <i class="bi bi-file-play"></i><br>Shorts
+                    </button>
+                </a>
                 
-                <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false" style="margin-bottom: 25px;">
-                          <i class="bi bi-collection-play"></i><br> <p style="margin-left: -25px;">Subscription</p>
-                </button>
+                <a href="../you tube/subscription.html">
+                  <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false" style="margin-bottom: 25px;">
+                    <i class="bi bi-collection-play"></i><br> <p style="margin-left: -15px;">Subscription</p>
+                  </button>
+                </a>
                       
-                <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">
+                <a href="../you tube/account(you).html">
+                  <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">
                     <i class="bi bi-person-circle"></i><br>You
-                </button>
-            </div>
+                  </button>
+                </a>  
+          </div>
         </div>
 
         <div class="main-nav-x">
@@ -66,60 +87,102 @@
         <!-- this is the 1st nav section -->
         <div style="height: fit-content; background: black; margin-left: 8%;overflow: auto;width: 92%;">
             <nav class="main-nav">
+              <div >
                 <img style="height:8vh;width: 100px;" src="https://variety.com/wp-content/uploads/2020/06/youtube-logo.png?w=999&h=562&crop=1" alt="" srcset="">
+              </div>  
+
+              <div style="margin-top: 13px;">
                 <input type="text" name="" id="" placeholder="search ..." style="padding-left: 15px; border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-style: none; margin-left: 70px; width: 500px; height: 30px;">
+              </div>
+
+              <div style="margin-top: 13px;">
                 <button style="border-style: none; height: 30px; width: 35px; margin-left: -3.5px; border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
-                    <i class="bi bi-search"></i>
-                </button>
-            
+                  <i class="bi bi-search"></i>
+                </button>  
+              </div>
+
+              <div style="margin-top: 13px;">
                 <button type="button" style="border-radius: 20px; margin-left: 25px; background-color: rgb(32, 30, 30); color: white; border: 1px solid rgb(158, 147, 147);">
-                    <i class="bi bi-mic" style="font-size: 20px;"></i>
+                  <i class="bi bi-mic" style="font-size: 20px;"></i>
                 </button>
+              </div>
+                
+              <div style="margin-top: 0px;">
                 <button style="margin-top: 10px; margin-left: 30px; background-color: rgb(44, 40, 40); color: white; border: 0.1px solid rgb(158, 147, 147); border-top-left-radius: 20px; border-top-right-radius: 20px; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px; height: 42px; padding-left: 10px; padding-right: 10px;">
-                    <p><span style="font-size: x-large;">+     </span>create</p>
+                  <p><span style="font-size: x-large;">+     </span>create</p>
                 </button>
-                <button style="background-color: black; border: none; font-size: x-large; padding-top: 19px;">
-                    <i class="bi bi-bell" style="margin-top: 10px; margin-left: 30px; background-color: rgb(29, 27, 27); color: white; border: 1px solid rgb(158, 147, 147); border-top-left-radius: 20px; border-top-right-radius: 20px; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px; height: 42px; padding-left: 10px; padding-right: 10px;"></i>
-                </button>
+              </div>
+                
+              <div>
+                <button style="background-color: black; border: none; font-size: x-large; padding-top: 10px;">
+                  <i class="bi bi-bell" style="margin-top: 10px; margin-left: 30px; background-color: rgb(29, 27, 27); color: white; border: 1px solid rgb(158, 147, 147); border-top-left-radius: 20px; border-top-right-radius: 20px; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px; height: 42px; padding-left: 10px; padding-right: 10px;"></i>
+              </button>
+              </div>  
+                
             </nav>
 
             <div>
                 <!-- this is the 2nd nav section -->
-                <div class="container-1">
+                <div class="container-1" style="margin-top: 20px;">
                     <div class="d-flex overflow-auto">
-                        <button class="btn btn-dark me-2" style="white-space: nowrap;">All</button>
-                        <button class="btn btn-dark me-2" style="white-space: nowrap;">Mathematical Analysis</button>
-                        <button class="btn btn-dark me-2" style="white-space: nowrap;">Data Structures</button>
-                        <button class="btn btn-dark me-2" style="white-space: nowrap;">Computer Programming</button>
-                        <button class="btn btn-dark me-2" style="white-space: nowrap;">Logical Reasoning</button>
-                        <button class="btn btn-dark me-2" style="white-space: nowrap;">Reading Comprehension</button>
-                        <button class="btn btn-dark me-2" style="white-space: nowrap;">Music</button>
-                        <button class="btn btn-dark me-2" style="white-space: nowrap;">Live</button>
-                        <button class="btn btn-dark me-2" style="white-space: nowrap;">Gaming</button>
-                        <button class="btn btn-dark me-2" style="white-space: nowrap;">Chaduvuko Bro</button>
+                        <button class="btn btn-dark me-2" style="white-space: nowrap;">
+                          All
+                        </button>
+                        <button class="btn btn-dark me-2" style="white-space: nowrap;">
+                          Mathematical Analysis
+                        </button>
+                        <button class="btn btn-dark me-2" style="white-space: nowrap;">
+                          Data Structures
+                        </button>
+                        <button class="btn btn-dark me-2" style="white-space: nowrap;">
+                          Computer Programming
+                        </button>
+                        <button class="btn btn-dark me-2" style="white-space: nowrap;">
+                          Logical Reasoning
+                        </button>
+                        <button class="btn btn-dark me-2" style="white-space: nowrap;">
+                          Reading Comprehension
+                        </button>
+                        <button class="btn btn-dark me-2" style="white-space: nowrap;">
+                          Music
+                        </button>
+                        <button class="btn btn-dark me-2" style="white-space: nowrap;">
+                          Live
+                        </button>
+                        <button class="btn btn-dark me-2" style="white-space: nowrap;">
+                          Gaming
+                        </button>
+                        <button class="btn btn-dark me-2" style="white-space: nowrap;">
+                          Chaduvuko Bro
+                        </button>
                     </div>
                 </div>
             </div>
         </div>
 
         <div style="background-color: black;">
-            <div style="background-color: black; margin-left: 100px; margin-bottom: 30px;">
+            
+          <div style="background-color: black; margin-left: 100px; margin-bottom: 30px;">
             <div class="row row-cols-1 row-cols-md-3 g-4 card-holder" style="margin-left: 8%; margin-right: 8%;">
-            <div class="col">
+                <div class="col">
                   <div class="" style="z-index: 0;color: white;">
 
                     <iframe class="card-img-top" src="https://www.youtube.com/embed/siTUv1L9ymM" frameborder="0" allowfullscreen style="border-radius: 15px;"></iframe>
+                    
                     <div class="card-body">
 
                       <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                      <p class="card-text">This is a longer card with supporting text below <br>
+                      as a natural lead-in to additional content.</p>
+                        
                     
                     </div>
                   </div>
-              </div>
+                </div>
 
               <div class="col">
-                  <div class="" style="z-index: 0;color: white;">
+                  
+                <div class="" style="z-index: 0;color: white;">
 
                     <iframe class="card-img-top" src="https://www.youtube.com/embed/8hTXqdImkuA" frameborder="0" allowfullscreen></iframe style="border-radius: 15px;">
                     <div class="card-body">
