@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>You-tube</title>
+    
+    <link rel="stylesheet" href="you-tube.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
+    crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <section>
+        
+        <!-- nav-left part -->
+        
+        <div class="d-flex align-items-start menu-nav">
+            
+            <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical" style="margin-top: 20px; margin-left: 15px; height: 100vh; overflow-y: auto;">
+                  
+              <!-- buttons part -->
+                  <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false" style="margin-bottom: 25px;">
+                      <i class="bi bi-list"></i><br>
+                  </button>
+                  
+                  <a href="../you tube/you-tube.html">
+                      <button class="nav-link" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="false" style="margin-bottom: 25px;">
+                          <i class="bi bi-house-door"></i><br>Home
+                      </button>
+                  </a>
+                  
+                  <a href="../you tube/shots.html">
+                      <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false" style="margin-bottom: 25px;">
+                          <i class="bi bi-file-play"></i><br>Shorts
+                      </button>
+                  </a>
+                  
+                  <a href="../you tube/subscription.html">
+                    <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false" style="margin-bottom: 25px;">
+                      <i class="bi bi-collection-play"></i><br> <p style="margin-left: -25px;">Subscription</p>
+                    </button>
+                  </a>
+                        
+                  <a href="../you tube/account(you).html">
+                    <button class="nav-link active" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="true">
+                      <i class="bi bi-person-circle"></i><br>You
+                    </button>
+                  </a>  
+            </div>
+          </div>
+
+        <div class="main-nav-x">
+          <div class="nav flex-row nav-pills me-3 " id="v-pills-tab" role="tablist" aria-orientation="vertical">
+
+              <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+                <i class="bi bi-list"></i><br>
+              </button>
+              <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">
+                <i class="bi bi-house-door"></i><br>Home
+              </button>
+            
+              <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+                <i class="bi bi-file-play"></i><br>Shorts
+              </button>
+            
+              <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">
+                <i class="bi bi-collection-play"></i><br> <p>Subscription</p>
+              </button>
+                  
+              <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">
+                <i class="bi bi-person-circle"></i><br>You
+              </button>
+          </div>
+        </div>
+    </section>   
+
+    <section style="background-color: black;">
+        <!-- this is the 1st nav section -->
+        <div style="height: fit-content; background: black; margin-left: 8%;overflow: auto;width: 92%;">
+            <nav class="main-nav">
+              <div >
+                <img style="height:8vh;width: 100px;" src="https://variety.com/wp-content/uploads/2020/06/youtube-logo.png?w=999&h=562&crop=1" alt="" srcset="">
+              </div>  
+
+              <div style="margin-top: 13px;">
+                <input type="text" name="" id="" placeholder="search ..." style="padding-left: 15px; border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-style: none; margin-left: 70px; width: 500px; height: 30px;">
+              </div>
+
+              <div style="margin-top: 13px;">
+                <button style="border-style: none; height: 30px; width: 35px; margin-left: -3.5px; border-top-right-radius: 10px; border-bottom-right-radius: 10px;">
+                  <i class="bi bi-search"></i>
+                </button>  
+              </div>
+
+              <div style="margin-top: 13px;">
+                <button type="button" style="border-radius: 20px; margin-left: 25px; background-color: rgb(32, 30, 30); color: white; border: 1px solid rgb(158, 147, 147);">
+                  <i class="bi bi-mic" style="font-size: 20px;"></i>
+                </button>
+              </div>
+                
+              <div style="margin-top: 0px;">
+                <button style="margin-top: 10px; margin-left: 30px; background-color: rgb(44, 40, 40); color: white; border: 0.1px solid rgb(158, 147, 147); border-top-left-radius: 20px; border-top-right-radius: 20px; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px; height: 42px; padding-left: 10px; padding-right: 10px;">
+                  <p><span style="font-size: x-large;">+     </span>create</p>
+                </button>
+              </div>
+                
+              <div style="margin-bottom: 15px;">
+                <button style="background-color: black; border: none; font-size: x-large; padding-top: 10px;">
+                  <i class="bi bi-bell" style="margin-top: 10px; margin-left: 30px; background-color: rgb(29, 27, 27); color: white; border: 1px solid rgb(158, 147, 147); border-top-left-radius: 20px; border-top-right-radius: 20px; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px; height: 42px; padding-left: 10px; padding-right: 10px;"></i>
+              </button>
+              </div>  
+                
+            </nav>
+
+            <div>
+                <!-- this is the 2nd nav section -->
+                <div class="container-1" style="margin-top: 20px; display: none;">
+                    <div class="d-flex overflow-auto">
+                        <button class="btn btn-dark me-2" style="white-space: nowrap;">
+                          All
+                        </button>
+                        <button class="btn btn-dark me-2" style="white-space: nowrap;">
+                          Mathematical Analysis
+                        </button>
+                        <button class="btn btn-dark me-2" style="white-space: nowrap;">
+                          Data Structures
+                        </button>
+                        <button class="btn btn-dark me-2" style="white-space: nowrap;">
+                          Computer Programming
+                        </button>
+                        <button class="btn btn-dark me-2" style="white-space: nowrap;">
+                          Logical Reasoning
+                        </button>
+                        <button class="btn btn-dark me-2" style="white-space: nowrap;">
+                          Reading Comprehension
+                        </button>
+                        <button class="btn btn-dark me-2" style="white-space: nowrap;">
+                          Music
+                        </button>
+                        <button class="btn btn-dark me-2" style="white-space: nowrap;">
+                          Live
+                        </button>
+                        <button class="btn btn-dark me-2" style="white-space: nowrap;">
+                          Gaming
+                        </button>
+                        <button class="btn btn-dark me-2" style="white-space: nowrap;">
+                          Chaduvuko Bro
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div style="background-color: black;">
+            
+            <div style="background-color: black; margin-left: 100px; margin-bottom: 30px;">
+
+                <div>
+                    <div class="your-details">
+                        <div>
+                            <img style="border-radius: 50%; margin-top: 50px;" src="https://yt3.ggpht.com/yti/ANjgQV_1TtzSHesry3KWN5bfrIoBmiOfhi9BirVEx_7CbDI=s120-c-k-c0x00ffffff-no-rj" alt="">
+                        </div>
+                        <div>
+                            <p style="color: white; margin-left: -956px;font-size: xx-large;margin-top: 60px;"> 211A05E7 N A K S S RAKESH <span style="color: gray;font-size: small;"><br>create a channel
+                            <br><button style="background-color: black;color: white;border: none;">
+                                switch account
+                            </button>
+                            <button style="background-color: black;color: white;border: none; margin-left: 20px;">
+                                Google account  
+                            </button>
+                        </span></p>
+                            
+                        </div>
+                    </div>
+                </div>
+
+
+                 <!-- history part -->
+          
+                <div class="history">
+                    <p style="color: white;font-size: x-large;">History</p>
+                    <button style="border-radius: 30px;padding: 10px; background-color: black; color: white;margin-bottom: 10px;">
+                        View all
+                    </button>
+
+                </div>
+
+
+
+                <div class="history-videos">
+                    <div>
+                        <a href="../you tube/play-video.html"></a>
+                            <img src="https://img.youtube.com/vi/pTa2oRxr6WA/mqdefault.jpg" alt="" srcset="">
+                            <p style="color: white;">description for the video 
+                                <br>another line line
+                            </p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="../you tube/play-video.html">
+                            <img src="https://img.youtube.com/vi/xk07LyyAKYU/mqdefault.jpg" alt="" srcset="">
+                            <p style="color: white;">description for the video 
+                                <br>another line
+                            </p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="../you tube/play-video.html">
+                            <img src="https://img.youtube.com/vi/nVGZxmFi0sw/mqdefault.jpg" alt="" srcset="">
+                            <p style="color: white;">description for the video 
+                                <br>another line
+                            </p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="../you tube/play-video.html"></a>
+                            <img src="https://img.youtube.com/vi/04wG3WC08NI/mqdefault.jpg" alt="" srcset="">
+                            <p style="color: white;">description for the video 
+                                <br>another line
+                            </p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="../you tube/play-video.html"></a>
+                            <img src="https://img.youtube.com/vi/u4WOgV6nRIc/mqdefault.jpg" alt="" srcset="">
+                            <p style="color: white;">description for the video 
+                                <br>another line
+                            </p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="../you tube/play-video.html"></a>
+                            <img src="https://img.youtube.com/vi/JpYA7WXkHyI/mqdefault.jpg" alt="" srcset="">
+                            <p style="color: white;">description for the video 
+                                <br>another line
+                            </p>
+                        </a>
+                    </div>
+                    <div>
+                    </div>
+                    <div>
+                        <a href="../you tube/play-video.html">
+                            <img src="https://img.youtube.com/vi/JpYA7WXkHyI/mqdefault.jpg" alt="" srcset="">
+                            <p style="color: white;">description for the video 
+                                <br>another line
+                                
+                            </p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="../you tube/play-video.html">
+                            <img src="https://img.youtube.com/vi/JpYA7WXkHyI/mqdefault.jpg" alt="" srcset="">
+                            <p style="color: white;">description for the video 
+                                <br>another line
+                                
+                            </p>
+                        </a>
+                    </div>
+
+
+
+                </div>
+
+
+                <!-- 
+                this is the play list part 
+                -->
+
+                <div class="play-list">
+                    <p style="color: white;font-size: x-large;">Playlists <select style="border: none;background-color: black;color: gray;margin-left: 10px;" name="names" id="">
+                        <option value="A-Z">A-z</option>
+                        <option value="Recently-added">Recently-added</option>
+                    </select></p>
+
+                    <button
+                    style="border-radius: 30px;padding: 10px; background-color: black; color: white;margin-bottom: 10px;">
+                        View all
+                    </button>
+
+                </div>
+
+                <div style="margin-left: 30px;">
+                    <a href="../you tube/play-video.html">
+                        <img src="https://img.youtube.com/vi/nVGZxmFi0sw/mqdefault.jpg" alt="" srcset="">
+                        <p style="color: white;">description for the video 
+                            <br>another line
+                        </p>
+                    </a>                  
+                </div>
+
+
+
+                <div class="history">
+                    <p style="color: white;font-size: x-large;">Watch later</p>
+                    <button style="border-radius: 30px;padding: 10px; background-color: black; color: white;margin-bottom: 10px;">
+                        View all
+                    </button>
+
+                </div>
+
+
+
+                <div class="history-videos">
+                    <div>
+                        <a href="../you tube/play-video.html"></a>
+                            <img src="https://img.youtube.com/vi/pTa2oRxr6WA/mqdefault.jpg" alt="" srcset="">
+                            <p style="color: white;">description for the video 
+                                <br>another line line
+                            </p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="../you tube/play-video.html">
+                            <img src="https://img.youtube.com/vi/xk07LyyAKYU/mqdefault.jpg" alt="" srcset="">
+                            <p style="color: white;">description for the video 
+                                <br>another line
+                            </p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="../you tube/play-video.html">
+                            <img src="https://img.youtube.com/vi/nVGZxmFi0sw/mqdefault.jpg" alt="" srcset="">
+                            <p style="color: white;">description for the video 
+                                <br>another line
+                            </p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="../you tube/play-video.html"></a>
+                            <img src="https://img.youtube.com/vi/04wG3WC08NI/mqdefault.jpg" alt="" srcset="">
+                            <p style="color: white;">description for the video 
+                                <br>another line
+                            </p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="../you tube/play-video.html"></a>
+                            <img src="https://img.youtube.com/vi/u4WOgV6nRIc/mqdefault.jpg" alt="" srcset="">
+                            <p style="color: white;">description for the video 
+                                <br>another line
+                            </p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="../you tube/play-video.html"></a>
+                            <img src="https://img.youtube.com/vi/JpYA7WXkHyI/mqdefault.jpg" alt="" srcset="">
+                            <p style="color: white;">description for the video 
+                                <br>another line
+                            </p>
+                        </a>
+                    </div>
+                    <div>
+                    </div>
+                    <div>
+                        <a href="../you tube/play-video.html">
+                            <img src="https://img.youtube.com/vi/JpYA7WXkHyI/mqdefault.jpg" alt="" srcset="">
+                            <p style="color: white;">description for the video 
+                                <br>another line
+                                
+                            </p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="../you tube/play-video.html">
+                            <img src="https://img.youtube.com/vi/JpYA7WXkHyI/mqdefault.jpg" alt="" srcset="">
+                            <p style="color: white;">description for the video 
+                                <br>another line
+                                
+                            </p>
+                        </a>
+                    </div>
+
+
+
+                </div>
+                </div>
+
+                <div class="history">
+                    <p style="color: white;font-size: x-large; margin-left: 100px;">Liked videos</p>
+                    <button style="border-radius: 30px;padding: 10px; background-color: black; color: white;margin-bottom: 10px;">
+                        View all
+                    </button>
+
+                </div>
+
+
+                <div class="history-videos" style="margin-left: 120px;">
+                    <div>
+                        <a href="../you tube/play-video.html"></a>
+                            <img src="https://img.youtube.com/vi/pTa2oRxr6WA/mqdefault.jpg" alt="" srcset="">
+                            <p style="color: white;">description for the video 
+                                <br>another line line
+                            </p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="../you tube/play-video.html">
+                            <img src="https://img.youtube.com/vi/xk07LyyAKYU/mqdefault.jpg" alt="" srcset="">
+                            <p style="color: white;">description for the video 
+                                <br>another line
+                            </p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="../you tube/play-video.html">
+                            <img src="https://img.youtube.com/vi/nVGZxmFi0sw/mqdefault.jpg" alt="" srcset="">
+                            <p style="color: white;">description for the video 
+                                <br>another line
+                            </p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="../you tube/play-video.html"></a>
+                            <img src="https://img.youtube.com/vi/04wG3WC08NI/mqdefault.jpg" alt="" srcset="">
+                            <p style="color: white;">description for the video 
+                                <br>another line
+                            </p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="../you tube/play-video.html"></a>
+                            <img src="https://img.youtube.com/vi/u4WOgV6nRIc/mqdefault.jpg" alt="" srcset="">
+                            <p style="color: white;">description for the video 
+                                <br>another line
+                            </p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="../you tube/play-video.html"></a>
+                            <img src="https://img.youtube.com/vi/JpYA7WXkHyI/mqdefault.jpg" alt="" srcset="">
+                            <p style="color: white;">description for the video 
+                                <br>another line
+                            </p>
+                        </a>
+                    </div>
+                    <div>
+                    </div>
+                    <div>
+                        <a href="../you tube/play-video.html">
+                            <img src="https://img.youtube.com/vi/JpYA7WXkHyI/mqdefault.jpg" alt="" srcset="">
+                            <p style="color: white;">description for the video 
+                                <br>another line
+                                
+                            </p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="../you tube/play-video.html">
+                            <img src="https://img.youtube.com/vi/JpYA7WXkHyI/mqdefault.jpg" alt="" srcset="">
+                            <p style="color: white;">description for the video 
+                                <br>another line
+                                
+                            </p>
+                        </a>
+                    </div>
+
+
+
+                </div>                
+            </div>
+
+
+           
+            
+        </section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
