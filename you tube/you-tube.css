@@ -3,10 +3,20 @@
 
     margin: 0;
 }
+
+::-webkit-scrollbar {
+    display: none; 
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: black;
     width: 100%;
+}
+a {
+    text-decoration: none !important;
+    color: white;
+    border: none;
 }
 
 .menu-nav{
@@ -39,6 +49,7 @@ body {
 
 .main-nav{
     background-color: black;
+    display: flex;
     
 }
 .container{
@@ -73,7 +84,7 @@ body {
 
     .main-nav-x{
         display: block;
-        background-color: orange;
+        background-color: black;
         position: fixed;
         top: 90%;
         width: 100%;
@@ -81,4 +92,113 @@ body {
     }
     
 
+}
+
+
+
+
+
+
+
+
+/* here on shorts css */
+
+.Shorts-comtainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 100px;
+    
+}
+
+.Shorts-comtainer iframe{
+    border-radius: 30px;    
+}
+
+
+
+
+
+
+
+
+
+
+/* 
+this 
+is the account(you) styles */
+
+.marquee-space{
+    margin-left: 80px;
+}
+
+.your-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+
+.history{
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.history-videos{
+    display: flex;
+    margin-left: 30px;
+    width: 100%;
+    overflow-x: scroll;
+    scrollbar-width: none; 
+}
+
+.history-videos::-webkit-scrollbar {
+    display: none; 
+}
+
+
+.history-videos img{
+    width: 300px;
+    border-radius: 25px;
+    margin-right: 20px;
+    
+}
+
+.play-list{
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+/* 
+this is the play - vdeo parrt 
+*/
+
+.suggestion-videos div img{
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 200px;
+    margin-left: 30px;
+}
+.suggestion-videos div p{
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 200px;
+    margin-left: 10px;
 }
